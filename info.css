@@ -1,0 +1,11 @@
+div.fixed {
+    position: fixed;
+    left: 550px;
+	top: 50px;
+	color: white;
+}
+body{
+	background-image: url("KrispIndexBG.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
