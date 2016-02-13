@@ -1,11 +1,110 @@
-div.fixed {
-    position: fixed;
-    left: 550px;
-	top: 50px;
-	color: white;
+IMG.logo {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	height:125px;
+	width:275px;
 }
-body{
-	background-image: url("KrispIndexBG.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+div.bar {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:50px;
+	width:650px;
+}
+div.bar a{
+	text-decoration:none;
+	color:#b3b3b3;
+	margin-left:25px;
+	text-transform: uppercase;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-size:15px;
+}
+div.news {
+	display:block;
+	position: absolute;
+	background-color:blue;
+	left: 225px;
+	margin: 0 auto;
+	margin-top:50px;
+	width: 650px;
+	height: 710px;
+}
+div.news h3{
+	text-decoration:none;
+	color:#b3b3b3;
+	margin-left:25px;
+	text-transform: uppercase;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-style:bold;
+	font-size:30px;
+}
+div.news a{
+	text-decoration:none;
+	color:#b3b3b3;
+	margin-left:25px;
+	text-transform: uppercase;
+	font-family:"Lucida Console", Monaco, monospace;
+	font-style:bold;
+	font-size:15px;
+}
+div.join
+{
+	display:block;
+	position: relative;
+	left: 875px;
+	text-align:center;
+	margin: auto, 0;
+	margin-top:50px;
+	width: 288px;
+	height: 152px;
+	
+}
+div.search
+{	
+	background-image: url("searchbg.png"); 
+	display:block;
+	position: relative;
+	left: 875px;
+	text-align:center;
+	margin: auto, 0;
+	margin-top:10px;
+	width: 300px;
+	height: 150px;
+	
+}
+div.store
+{	
+	display:block;
+	position: relative;
+	left: 875px;
+	text-align:center;
+	margin: auto, 0;
+	margin-top:10px;
+	width: 300px;
+	height: 374x;
+	
+}
+
+div.previews
+{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:25px;
+	height:320px;
+	width:900px;
+}	
+div.previews img
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+html { 
+  background: url("KrispIndexBG.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
